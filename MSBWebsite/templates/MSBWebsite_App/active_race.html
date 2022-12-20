@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<h1 style="text-align:center"> Aktywne wyścigi</h1>
+<table class="table table-stripped table-hover">
+    <thead>
+      <tr>
+        <th>Nazwa </th>
+        <th>Data rozpoczecia</th>
+        <th>Data zakonczenia</th>
+        <th>Organizator</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td>Sprint</td>
+        <td>12/12/2022</td>
+        <td>13/12/2022</td>
+        <td>Mikolaj</td>
+
+        <td>
+          <a
+            href="#"
+            class="btn btn-secondary btn-sm"
+            >Zakoncz</a
+          >
+        </td>
+        <td>
+            <a
+              href="#"
+              class="btn btn-secondary btn-sm"
+              >Edytuj</a
+            >
+          </td>
+      </tr>
+
+
+    </tbody>
+    <tbody>
+
+      <tr>
+        <td>Bieg szybki</td>
+        <td>15/12/2022</td>
+        <td>24/12/2022</td>
+        <td>Polsat</td>
+
+        <td>
+          <a
+            href="#"
+            class="btn btn-secondary btn-sm"
+            >Zakoncz</a
+          >
+        </td>
+        <td>
+            <a
+              href="#"
+              class="btn btn-secondary btn-sm"
+              >Edytuj</a
+            >
+          </td>
+      </tr>
+
+
+    </tbody>
+
+
+{% endblock content %}

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+<h1 style="text-align:center"> Dodaj wyścig</h1>
+<h3>Narysuj na mapie trase:</h3>
+<div>
+    <div class="form-grup">
+        <input 
+        type="text" 
+        name="username" 
+        placeholder="Nazwa Wyscigu"
+        id="usernameField" 
+        value="{{fieldValues.username}}"   
+        class="form-control form-control-sm" 
+        />
+    </div>
+    <div class="form-grup">
+        <input 
+        type="text" 
+        name="username" 
+        placeholder="Data rozpoczecia:"
+        id="usernameField" 
+        value="{{fieldValues.username}}"   
+        class="form-control form-control-sm" 
+        />
+    </div>
+    <div class="form-grup">
+        <input 
+        type="text" 
+        name="username" 
+        placeholder="Data zakonczenia"
+        id="usernameField" 
+        value="{{fieldValues.username}}"   
+        class="form-control form-control-sm" 
+        />
+    </div>
+    <div class="form-grup">
+        <input 
+        type="text" 
+        name="username" 
+        placeholder="Liczba uczestnikow"
+        id="usernameField" 
+        value="{{fieldValues.username}}"   
+        class="form-control form-control-sm" 
+        />
+    </div>
+    <div class="form-grup">
+        <input 
+        type="text" 
+        name="username" 
+        placeholder="Adres"
+        id="usernameField" 
+        value="{{fieldValues.username}}"   
+        class="form-control form-control-sm" 
+        />
+    </div>
+    <input type="submit" value="Dodaj wyścig" class="btn btn-block btn-primary submit-btn"/>
+</div>
+
+
+
+{% endblock content %}
